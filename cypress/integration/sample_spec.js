@@ -1,9 +1,5 @@
 describe('First Test', () => {
-  it('Does not do much', () => {
-    expect(true).to.equal(true)
-  });
-
-  it('Does not do much v2', () => {
-    expect(true).to.equal(false)
+  it('Visit Website', () => {
+    cy.visit('https://example.cypress.io')
   });
 });
