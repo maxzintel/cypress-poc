@@ -1,1 +1,4 @@
 /node_modules
+/cypress/lib/env/env.db.js
+/cypress/lib/env/env.js
+
